@@ -24,12 +24,13 @@ Machine Learning trading system using:
 
 ```bash
 python main.py
+```
 
 ## Run Streamlit 
 
 
 ```bash
 streamlit run app.py
-
+```
 
 ## Data source: Yahoo Finance 
