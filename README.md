@@ -39,4 +39,4 @@ streamlit run app.py
 
 ## Data source: 
 Market data is fetched from Yahoo Finance using the yfinance API.
-## Data source: Yahoo Finance 
+
