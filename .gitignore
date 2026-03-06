@@ -6,3 +6,4 @@ logs/
 data/
 .env
 .vscode/
+src/config.py

@@ -58,6 +58,5 @@ def main():
 
     logger.info("========== Pipeline Completed Successfully ==========")
 
-
 if __name__ == "__main__":
     main()

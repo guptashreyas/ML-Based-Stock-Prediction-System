@@ -1,16 +1,19 @@
 # 📈 ML-Based Buy / Hold / Sell Prediction System
 
-Machine Learning trading system using:
-- RandomForest / XGBoost
-- Technical indicators (RSI, EMA, MACD, Bollinger Bands)
-- Streamlit Dashboard
-- Yahoo Finance Data
+A machine learning trading system that predicts BUY / HOLD / SELL signals using historical market data and technical indicators.
+
+The project builds an end-to-end ML pipeline including data collection, feature engineering, model training, backtesting, and a Streamlit dashboard for live predictions.
 
 ## Features
 - Multi-class classification (BUY / HOLD / SELL)
-- Backtesting engine
-- Sharpe ratio calculation
-- Live signal generation via Streamlit
+- Advanced technical indicators:
+    -EMA (20, 50)
+    -RSI
+    -MACD
+    -Bollinger Bands
+    -Volatility & return features
+- XGBoost model for prediction
+- Live prediction dashboard via Streamlit
 
 ## Tech Stack
 - Python 3.11
@@ -19,6 +22,7 @@ Machine Learning trading system using:
 - yfinance
 - Streamlit
 - Plotly
+-Pandas / NumPy
 
 ## Run Training Pipeline
 
@@ -32,4 +36,5 @@ python main.py
 streamlit run app.py
 
 
-## Data source: Yahoo Finance 
+## Data source: 
+Market data is fetched from Yahoo Finance using the yfinance API.
