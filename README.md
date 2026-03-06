@@ -22,7 +22,7 @@ The project builds an end-to-end ML pipeline including data collection, feature 
 - yfinance
 - Streamlit
 - Plotly
--Pandas / NumPy
+- Pandas / NumPy
 
 ## Run Training Pipeline
 
