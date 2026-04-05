@@ -20,7 +20,7 @@ def fetch_data():
         logger.error("No data returned from Yahoo Finance.")
         raise ValueError("Data download failed.")
 
-    # 🔥 Fix MultiIndex issue
+    #  Fix MultiIndex issue
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
 
