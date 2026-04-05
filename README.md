@@ -13,7 +13,7 @@ This repository walks through a full pipeline:
 8. Run a Streamlit app for live signal generation
 
 ---
-## 🧱 Project Structure
+##  Project Structure
 
 ```text
 ML-Based-Stock-Prediction-System/
