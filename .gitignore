@@ -5,5 +5,5 @@ models/
 logs/
 data/
 .env
-.vscode/
+.vscode
 src/config.py
