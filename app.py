@@ -30,7 +30,7 @@ if st.button("Generate Signal"):
     st.write("Fetching latest data...")
     df = yf.download(symbol, period="5y", auto_adjust=False)
 
-    # 🔥 Flatten MultiIndex columns if present
+    #  Flatten MultiIndex columns if present
     if isinstance(df.columns, pd.MultiIndex):
         df.columns = df.columns.get_level_values(0)
 
